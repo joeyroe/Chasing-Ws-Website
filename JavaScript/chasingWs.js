@@ -132,7 +132,7 @@ function drawBoard(){ //draws the gameBoard
 
 function draw_W(){ //draws the W
     ctx.fillStyle = "white";
-    ctx.font = "25px fantasy";
+    ctx.font = "25px Impact";
     ctx.fillText("W", wX, wY);
 }
 

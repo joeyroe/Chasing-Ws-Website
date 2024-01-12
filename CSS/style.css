@@ -1,6 +1,6 @@
 h1{
     color: white;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: black;
     text-align: center;
 
@@ -24,7 +24,7 @@ li a{
     text-decoration: none;
     border-right: 3px solid white;
     border-bottom: 3px solid white;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     min-width: 60px;
 }
 
@@ -45,7 +45,7 @@ html{
     margin-left: 10px;
     margin-top: -30%;
     color:white;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .center{
@@ -114,7 +114,7 @@ html{
     position: fixed;
     top: 25%;
     right: 15%;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
 }
 
@@ -123,7 +123,7 @@ html{
     position: fixed;
     bottom: 55%;
     right: 10%;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
 }
 
@@ -132,7 +132,7 @@ html{
     background-color: magenta;
     border-color: black;
     border-width: 3px;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
     width: 10%;
     border-style: solid;
