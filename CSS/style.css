@@ -1,0 +1,144 @@
+h1{
+    color: white;
+    font-family: fantasy;
+    background-color: black;
+    text-align: center;
+
+}
+
+
+#navigationBar{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: magenta;
+}
+
+li a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    font-family: fantasy;
+    min-width: 60px;
+}
+
+li a:hover{
+    background-color: #CE009F;
+}
+
+html{
+    background: linear-gradient(aqua, black);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#gameInstructions{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -30%;
+    color:white;
+    font-family: fantasy;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.left{
+    display: block;
+    margin-left: 1%;
+}
+
+#homePageText{
+    margin-top: 25px;
+    color: black;
+    border: 5px solid black ;
+    border-radius: 10px;
+    /*width: 50%;*/
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+}
+
+#homePageIntro{
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
+#privacyPage{
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
+#privacyPolicyText{
+    margin-top: 25px;
+    color: black;
+    border: 5px solid white ;
+    border-radius: 10px;
+    /*width: 50%;*/
+    text-align: left;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+}
+
+
+
+
+
+
+
+#gameContainer{
+    text-align: center;
+}
+
+#gameBoard{
+    border: 5px solid white;
+    margin-top: 3%;
+}
+
+#scoreText{
+    color: white;
+    position: fixed;
+    top: 25%;
+    right: 15%;
+    font-family: fantasy;
+    font-size: 35px;
+}
+
+#highScoreText{
+    color: white;
+    position: fixed;
+    bottom: 55%;
+    right: 10%;
+    font-family: fantasy;
+    font-size: 35px;
+}
+
+#startButton{
+    
+    background-color: magenta;
+    border-color: black;
+    border-width: 3px;
+    font-family: fantasy;
+    font-size: 25px;
+    width: 10%;
+    border-style: solid;
+    border-radius: 10px;
+    position: fixed;
+
+    right: 12%;
+    bottom: 35%;
+}

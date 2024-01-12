@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <link rel = "stylesheet" type = "text/css"
+        href = "CSS/style.css">
+
+        <title>Chasing Ws</title>
+        <meta charset = "UTF-8">
+        <meta name = "keywords" content = "game">
+        <meta name = "description" content = "Playing a game">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
+    </head>
+
+    <body>
+        <h1>Chasing W's</h1>
+        <ul id = "navigationBar">
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+            <li><a href = "privacy.html">Privacy Policy</a></li>
+            <li><a href = "chasingWs.html">Chasing Ws</a></li>
+        </ul>
+
+        <div id = "gameContainer">
+
+            <canvas id = "gameBoard" width = "600" height="500">
+            </canvas>
+
+            <p id = "gameInstructions">Use the arrows on your keyboard<br>
+                to move the square up, down, left and right.<br>
+                Try and get the W while avoiding the Ls.
+            </p>
+
+            <img src = "assets/keyboardPic.png" style="width:200px; height: 150px;" class = "left">
+
+            <div id = "scoreText">W's: 0</div>
+            <div id = "highScoreText">High Score: </div>
+        </div>
+
+        <button id = "startButton">Start</button>
+
+        <script src = "JavaScript/chasingWs.js"></script>
+        <script src = "JavaScript/inputHandler.js"></script>
+    </body>
+
+</html>
