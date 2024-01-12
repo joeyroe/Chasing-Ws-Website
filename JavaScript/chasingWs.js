@@ -397,7 +397,7 @@ function checkHighScore(score){
 //writes Game Over on the canvas
 function writeGameOver(){
 
-    ctx.font = "50px fantasy";
+    ctx.font = "50px Impact";
     ctx.fillStyle = "white";
     ctx.textAllign = "center";
     ctx.fillText("GAME OVER", (gameWidth / 2), (gameHeight / 2));
