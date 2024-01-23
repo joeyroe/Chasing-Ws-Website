@@ -132,7 +132,7 @@ function drawBoard(){ //draws the gameBoard
 
 function draw_W(){ //draws the W
     ctx.fillStyle = "white";
-    ctx.font = "25px Impact";
+    ctx.font = "25px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
     ctx.fillText("W", wX, wY);
 }
 
@@ -397,7 +397,7 @@ function checkHighScore(score){
 //writes Game Over on the canvas
 function writeGameOver(){
 
-    ctx.font = "50px Impact";
+    ctx.font = "50px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
     ctx.fillStyle = "white";
     ctx.textAllign = "center";
     ctx.fillText("GAME OVER", (gameWidth / 2), (gameHeight / 2));
