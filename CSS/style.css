@@ -157,3 +157,37 @@ html{
     right: 12%;
     bottom: 35%;
 }
+
+
+
+
+#mazeUserInput{
+    width: 300px;
+    text-align: left;
+    color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    top: 150px;
+    left: 3%;
+    font-family: Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#mazeStartButton{
+    color: black;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#mazeContainer{
+    margin-left: 33%;
+    margin-top: -3%;
+}
+
+#mazeBoard{
+    border: 5px solid black;
+}

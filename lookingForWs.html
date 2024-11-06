@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <link rel = "stylesheet" type = "text/css"
+        href = "CSS/style.css">
+
+        <title>Chasing Ws</title>
+        <meta charset = "UTF-8">
+        <meta name = "keywords" content = "game, maze">
+        <meta name = "description" content = "Playing a game">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
+    </head>
+
+    <body>
+        <h1>Looking for Ws</h1>
+        <ul id = "navigationBar">
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+            <li><a href = "privacy.html">Privacy Policy</a></li>
+            <li><a href = "chasingWs.html">Chasing Ws</a></li>
+            <li><a href = "lookingForWs.html">Looking for Ws</a></li>
+        </ul>
+
+        <div id = "mazeUserInput">
+            <form id = "mazeSettings" actions = "">
+                <label>Maze Size : </label>
+                <input id = "mazeSize" type = "number" value = "500"/>
+                <br>
+                <label>Number of Rows and Columns : </label>
+                <input id = "rowsAndCols" type = "number" value = "20" min = "3" max = "65"/>
+                <br><br>
+                <button type = "button" id = "mazeStartButton">START</button>
+            </form>
+        </div>
+
+        <div id = "mazeContainer">
+            <canvas id = "mazeBoard" width = "500" height = "500"></canvas>
+        </div>
+
+        <script src = "JavaScript/mazeCell.js"></script>
+        <script src = "JavaScript/mazeGenerator.js"></script>
+        <script src = "JavaScript/mazeMovementControl.js"></script>
+
+    </body>
+
+</html>
